@@ -1,1 +1,1 @@
-My Notes AND UPDATES
+My Notes
