@@ -1,6 +1,6 @@
 
 # Types
-- > [!note]
+- >[!note]
 - >[!abstract]
 - >[!info]
 - >[!tip]
