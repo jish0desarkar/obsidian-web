@@ -6,4 +6,3 @@
 4. Command to SSH from PC to mobile - `ssh u0_a246@192.168.1.255 -p 8022`
 
 ## Start Ubuntu server
-1. 
