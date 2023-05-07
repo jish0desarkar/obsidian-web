@@ -4,11 +4,3 @@
 
 >[!Note] 
 > **left** always comes *first*. The *only* position change occurs for **root**.
-
-|      |      |      |      |      |      |      |      |
-|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-|      |      |      |      |      |      |      |      |
-|      |      |      |      |      |      |      |      |
-|      |      |      |      |      |      |      | sdfsdf |
-
-
