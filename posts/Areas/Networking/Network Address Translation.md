@@ -11,4 +11,4 @@
 
 ### What are the available private IP addresses?
 - There are 3 blocks of IP addresses that can be used as private addresses
-	- 
+	- ![[Screenshot 2023-05-10 at 12.46.25 PM.png]]
