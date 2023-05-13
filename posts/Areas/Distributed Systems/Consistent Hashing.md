@@ -4,4 +4,4 @@
 
 ### Consistent Hashing
 #### Need for Consistent Hashing
-- In regular hashing
+- In regular hashed load balancing 
