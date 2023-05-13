@@ -11,8 +11,8 @@
 ##### Solution
 - Consistent Hashing solves the addition and removal of servers problem.
 - Construct a *hash ring* of *size m* and hash the server ids (can use IP or any other ID associated to the servers) and place them in the ring. 
-- When a request comes in we hash the _request_id_ but **instead of modding with number of server we mod with m value** - **hash(request_id) % m**
+- When a request comes in we hash the _request_id_ but *instead of modding with number of server we mod with m value* - **hash(request_id) % m**
 - Wherever the request is placed go **clockwise** and find the *immediate* server, this will server or store/retrieve the data.
-- In case of addition or removal of the server only a small set of servers would be impacted, i.e. only a **small amount of data need to be relocated**. 
+- In case of *addition or removal* of the server only a small set of servers would be impacted, i.e. only a **small amount of data need to be relocated**. 
 - **Virtual nodes** can also be placed in the ring to further reduc**e load being skewed to one particular set of servers**. This can be done by assigning *multiple ids* to the server. (server_id, server_id + x, server_id + y)
 - ![[FZPxjppUsAIoVod.jpg]]
