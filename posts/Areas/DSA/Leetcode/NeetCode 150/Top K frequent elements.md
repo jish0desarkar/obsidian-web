@@ -64,10 +64,10 @@ class Solution(object):
         res = []
         
         for i in range(0, k):
-            max_till_now = -10
+            max_till_now = -1
             for key, val in freq.items():
-                max_till_now = key if val >= freq.get(max_till_now, -100) else max_till_now
-            freq[max_till_now] = -100
+                max_till_now = key if val > freq.get(max_till_now, -1) else max_till_now
+            del freq[max_till_now]
             res.append(max_till_now)
         return res
 ```
