@@ -35,7 +35,7 @@ class Solution:
         return res
 
 ```
-
+![[Screenshot 2023-05-13 at 10.53.14 PM.png]]
 ---
 ### Alternate Solution (with o(n) extra space)
 
@@ -72,4 +72,8 @@ class Solution(object):
 ```
 ---
 ### Things to note:
-- 
+- Idea of the efficient solution is the same as the prefix and postfix prod, except instead of storing the pre and post prod to different arrays compute it with the same result array by **traversing the array twice** from each end. **The left -> right pass gives the *prefix* and right -> left pass gives the *postfix****.
+- Traverse the array from left to right and store the prefix product one step to the right.
+- Traverse the array from right to left and multiply with the value one step to the left and store.
+- The above steps are done as the **current element's multiply should be excluded**. **If included then store the post and prefix prod to the current index and not one step left or right**
+- (Watch neetcode for clarification)
