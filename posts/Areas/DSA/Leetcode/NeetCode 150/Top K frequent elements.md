@@ -14,7 +14,8 @@ Output: [1,2]
 ---
 ### Key Ideas
 - Count frequency of all chars using hashmap
-- 
+- Use another array's **index to store** the elements whose **freq are the same** as the index it's being stored into, this will help to find the k most freq elements in linear time
+- Another approach can be to traverse through the freq hashmap and in each iteration get the max value but it'll be O(nk) complexity.
 ---
 ### Solution
 ```python
@@ -46,4 +47,6 @@ class Solution(object):
 
 ---
 ### Things to note:
-- 
+- `freq_arr` need to be `len(nums + 1)` as the max frequency of an element can be `len(nums)`, as array is 0 based we need to create _len + 1_
+- Iterate the `freq_arr` from **rightside** 
+- **DO NOT** use `[list()]*len` to create `freq_arr` array as it'll create the same list instance for all the array elements and the values will be repeated.
