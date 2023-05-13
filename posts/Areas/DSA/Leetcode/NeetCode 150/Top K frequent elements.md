@@ -46,6 +46,32 @@ class Solution(object):
 ```
 
 ---
+### Alternate solution (Inefficient)
+```python
+class Solution(object):
+    def topKFrequent(self, nums, k):
+        """
+        :type nums: List[int]
+        :type k: int
+        :rtype: List[int]
+        """
+        # counting freq of all elements
+        freq = {}
+
+        for i in nums:
+            freq[i] = 1 + freq.get(i, 0) # get the value of freq[i] or return 0
+        
+        res = []
+        
+        for i in range(0, k):
+            max_till_now = -10
+            for key, val in freq.items():
+                max_till_now = key if val >= freq.get(max_till_now, -100) else max_till_now
+            freq[max_till_now] = -100
+            res.append(max_till_now)
+        return res
+```
+---
 ### Things to note:
 - `freq_arr` need to be `len(nums + 1)` as the max frequency of an element can be `len(nums)`, as array is 0 based we need to create _len + 1_
 - Iterate the `freq_arr` from **rightside** 
