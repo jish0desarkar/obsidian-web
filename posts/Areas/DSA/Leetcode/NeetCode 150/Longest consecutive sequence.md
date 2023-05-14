@@ -38,7 +38,23 @@ class Solution:
 ---
 ### Alternate Solution
 ```python
+class Solution(object):
+    def longestConsecutive(self, nums):
+        h = {}
+        longest = 0
+        
+        for i in nums:
+            h[i] = True
 
+        for i in nums:
+            # check if element starts a seq
+            if h.get(i-1) is None:
+                length = 1 # length of new seq started by i
+                while h.get(i+length) is not None:
+                    length += 1
+                longest = max(longest, length)
+    
+        return longest
 ```
 ---
 ### Things to note:
