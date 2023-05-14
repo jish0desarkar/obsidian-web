@@ -24,9 +24,31 @@
 - Break down the problem in *row check*, *column check* and *grid check*
 -  `while` loop can be used when traversing a matrix
 - Pointer **boundary** conditions are crucial
+- Divide the 3x3 grid into 9 squares with indices 0-3
  ---
 ### Solution
 ```python
+class Solution:
+    def isValidSudoku(self, board: List[List[str]]) -> bool:
+        cols = collections.defaultdict(set)
+        rows = collections.defaultdict(set)
+        squares = collections.defaultdict(set)  # key = (r /3, c /3) for 3X3 grid
+
+        for r in range(9):
+            for c in range(9):
+                if board[r][c] == ".":
+                    continue
+                if (
+                    board[r][c] in rows[r]
+                    or board[r][c] in cols[c]
+                    or board[r][c] in squares[(r // 3, c // 3)]
+                ):
+                    return False
+                cols[c].add(board[r][c])
+                rows[r].add(board[r][c])
+                squares[(r // 3, c // 3)].add(board[r][c])
+
+        return True
 
 ```
 
