@@ -17,7 +17,17 @@
 ---
 ### Expected input/output
 ```
-
+Input: board = 
+[["5","3",".",".","7",".",".",".","."]
+,["6",".",".","1","9","5",".",".","."]
+,[".","9","8",".",".",".",".","6","."]
+,["8",".",".",".","6",".",".",".","3"]
+,["4",".",".","8",".","3",".",".","1"]
+,["7",".",".",".","2",".",".",".","6"]
+,[".","6",".",".",".",".","2","8","."]
+,[".",".",".","4","1","9",".",".","5"]
+,[".",".",".",".","8",".",".","7","9"]]
+Output: true
 ```
 ---
 ### Key Ideas
@@ -25,6 +35,8 @@
 -  `while` loop can be used when traversing a matrix
 - Pointer **boundary** conditions are crucial
 - Divide the 3x3 grid into 9 squares with indices 0-3
+- This can be done in **one loop** by maintaining 3 *hashmap* of values type *set*
+- row, col and modified grid *index can be used as the key* of the hashmap and values can be *added in a set*
  ---
 ### Solution
 ```python
