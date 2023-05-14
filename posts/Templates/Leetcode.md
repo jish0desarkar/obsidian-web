@@ -18,7 +18,11 @@
 ```python
 
 ```
+---
+### Alternate Solution
+```python
 
+```
 ---
 ### Things to note:
 - 
