@@ -1,4 +1,7 @@
-
+---
+link: https://www.notion.so/Network-Address-Translation-c7fee27da1ec49dbb611adebf6d60f1e
+notionID: c7fee27d-a1ec-49db-b611-adebf6d60f1e
+---
 ### Links
 - YouTube - <https://www.youtube.com/watch?v=qij5qpHcbBk>
 
