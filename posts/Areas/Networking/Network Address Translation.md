@@ -1,6 +1,6 @@
 ---
-link: https://www.notion.so/Network-Address-Translation-c7fee27da1ec49dbb611adebf6d60f1e
-notionID: c7fee27d-a1ec-49db-b611-adebf6d60f1e
+link: https://www.notion.so/Network-Address-Translation-01d07b46c49b4b9a8faa12f91d1bc7b8
+notionID: 01d07b46-c49b-4b9a-8faa-12f91d1bc7b8
 ---
 ### Links
 - YouTube - <https://www.youtube.com/watch?v=qij5qpHcbBk>
