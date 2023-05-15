@@ -1,4 +1,7 @@
-
+---
+link: https://www.notion.so/Group-Anagrams-6af25818bc6c489184faf169decbc0c7
+notionID: 6af25818-bc6c-4891-84fa-f169decbc0c7
+---
 ### Links
 - Leetcode -  <https://leetcode.com/problems/group-anagrams/>
 - Neetcode - <https://www.youtube.com/watch?v=vzdNOK2oB2E>
