@@ -1,3 +1,7 @@
+---
+link: https://www.notion.so/Valid-Sudoku-afaf2d8e28a34c48a75f995d92e99f29
+notionID: afaf2d8e-28a3-4c48-a75f-995d92e99f29
+---
 ### Links
 - Leetcode -  <https://leetcode.com/problems/valid-sudoku/description/>
 - Neetcode - <https://www.youtube.com/watch?v=TjFXEUCMqI8>

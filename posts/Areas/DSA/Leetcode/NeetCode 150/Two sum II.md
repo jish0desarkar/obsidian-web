@@ -1,3 +1,7 @@
+---
+link: https://www.notion.so/Two-sum-II-418667717c8b43b1a7f8d7ffc81ddb87
+notionID: 41866771-7c8b-43b1-a7f8-d7ffc81ddb87
+---
 ### Links
 - Leetcode -  
 - Neetcode - 

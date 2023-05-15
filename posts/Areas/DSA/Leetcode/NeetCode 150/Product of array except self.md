@@ -1,3 +1,7 @@
+---
+link: https://www.notion.so/Product-of-array-except-self-3f73294ef48b4511bb634bf9e3646d5e
+notionID: 3f73294e-f48b-4511-bb63-4bf9e3646d5e
+---
 ### Links
 - Leetcode - <https://leetcode.com/problems/product-of-array-except-self/description/>
 - Neetcode - <https://www.youtube.com/watch?v=bNvIQI2wAjk>

@@ -1,3 +1,7 @@
+---
+link: https://www.notion.so/Top-K-frequent-elements-c64e466ab459400ab56aaf5d7faa11af
+notionID: c64e466a-b459-400a-b56a-af5d7faa11af
+---
 ### Links
 - Leetcode -  <https://leetcode.com/problems/top-k-frequent-elements/>
 - Neetcode - <https://www.youtube.com/watch?v=YPTqKIgVk-k>

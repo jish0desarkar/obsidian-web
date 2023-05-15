@@ -1,3 +1,7 @@
+---
+link: https://www.notion.so/Permutations-4edc055f18ff4a5794f8f7454d68d1fe
+notionID: 4edc055f-18ff-4a57-94f8-f7454d68d1fe
+---
 ### Links
 - Leetcode -  <https://leetcode.com/problems/permutations/>
 - Neetcode - <https://www.youtube.com/watch?v=s7AvT7cGdSo>

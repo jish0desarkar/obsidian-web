@@ -1,3 +1,7 @@
+---
+link: https://www.notion.so/Valid-Palindrome-d04408a9ba5646efbcab4d6c201fcbf5
+notionID: d04408a9-ba56-46ef-bcab-4d6c201fcbf5
+---
 ### Links
 - Leetcode -  <https://leetcode.com/problems/valid-palindrome/>
 - Neetcode - <https://www.youtube.com/watch?v=jJXJ16kPFWg>

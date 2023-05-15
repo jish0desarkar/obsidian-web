@@ -1,3 +1,7 @@
+---
+link: https://www.notion.so/Longest-consecutive-sequence-e56de3322eda4e64a4265dfa89fafa47
+notionID: e56de332-2eda-4e64-a426-5dfa89fafa47
+---
 ### Links
 - Leetcode -  <https://leetcode.com/problems/longest-consecutive-sequence/description/>
 - Neetcode - <https://www.youtube.com/watch?v=P6RZZMu_maU>
