@@ -16,3 +16,6 @@ notionID: 01d07b46-c49b-4b9a-8faa-12f91d1bc7b8
 ### What are the available private IP addresses?
 - There are 3 blocks of IP addresses that can be used as private addresses
 	- ![[Screenshot 2023-05-10 at 12.46.25 PM.png]]
+
+
+![[[Screenshot 2023-05-10 at 12.46.25 PM.png](https://s3-lc-upload.s3.amazonaws.com/uploads/2018/07/17/question_11.jpg)]]>>
