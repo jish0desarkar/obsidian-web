@@ -19,3 +19,5 @@ notionID: 01d07b46-c49b-4b9a-8faa-12f91d1bc7b8
 
 
 ![[[Screenshot 2023-05-10 at 12.46.25 PM.png](https://s3-lc-upload.s3.amazonaws.com/uploads/2018/07/17/question_11.jpg)]]>>
+
+[[Valid Palindrome^]]
